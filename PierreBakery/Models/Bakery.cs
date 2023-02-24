@@ -2,13 +2,17 @@ namespace PierreBakery.Models
 {
   public class Bread
   {
-    // properties, constructors, methods, etc. go here
+    public int Quantity {get; set;}
+
+    public decimal CalculateCost()
+    {
+      int freeLoaves = Quantity / 3;
+      int paidLoaves = Quantity - freeLoaves;
+
+      return 
+    }
   }
 }
 
 
 
-public class Pastry
-{
-  
-}
