@@ -7,11 +7,11 @@ namespace Bakery.Tests
   public class PastryTests
   {
 [TestMethod]
-    public void PastryConstructor_CalculatesPastryCost_8()
+    public void PastryConstructor_CalculatesPastryCost_12()
     {
-      var pastry = new Pastry { Quantity = 5 };
-      decimal cost = pastry.CalculateCost();
-      Assert.AreEqual(6.0m, cost, 0m);
+      var pastry = new Pastry { Quantity = 8 };
+        decimal cost = pastry.CalculateCost();
+        Assert.AreEqual(12m, cost);
     }
   }
 }
