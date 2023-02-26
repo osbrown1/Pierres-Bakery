@@ -14,8 +14,8 @@
 
 _This Application will ask the user how many loaves and pastries they want and calculate that price based on the application's built-in criteria. Here's the menu for reference:_ 
 
-_for Bread: Buy 2, get 1 free. A single loaf costs $5._
-_for Pastry: Buy 3, get 1 free. A single pastry costs $2._
+* _for Bread: Buy 2, get 1 free. A single loaf costs $5._
+* _for Pastry: Buy 3, get 1 free. A single pastry costs $2._
 
 ## Setup/Installation Requirements
 
