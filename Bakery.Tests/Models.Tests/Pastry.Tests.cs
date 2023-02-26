@@ -11,7 +11,7 @@ namespace Bakery.Tests
     {
       var pastry = new Pastry { Quantity = 5 };
       decimal cost = pastry.CalculateCost();
-      Assert.AreEqual(8m, cost);
+      Assert.AreEqual(8.5m, cost);
     }
   }
 }
