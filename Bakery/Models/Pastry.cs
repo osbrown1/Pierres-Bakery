@@ -5,11 +5,13 @@ namespace Bakery.Models
     public int Quantity { get; set; }
 
     public decimal CalculateCost()
-    {
-      int freePastries = Quantity / 4;
-        int paidPastries = Quantity - freePastries;
+{
+    int discountedLoaves = Quantity / 4;
+    int fullPriceLoaves = Quantity % 4;
 
-        return (freePastries * 2m) + (paidPastries * 2m);
-    }
+    decimal cost = (discountedLoaves * 6m) + (fullPriceLoaves * 2m);
+
+    return cost;
+}
   }
 }
