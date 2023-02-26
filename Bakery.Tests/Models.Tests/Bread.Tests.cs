@@ -14,5 +14,13 @@ namespace Bakery.Tests
       decimal cost = bread.CalculateCost();
       Assert.AreEqual(15m, cost);
     }
+
+    [TestMethod]
+    public void BreadConstructor_CalculatesBreadCost_25()
+    {
+      var bread = new Bread { Quantity = 7 };
+      decimal cost = bread.CalculateCost();
+      Assert.AreEqual(25m, cost);
+    }
   }
 }
